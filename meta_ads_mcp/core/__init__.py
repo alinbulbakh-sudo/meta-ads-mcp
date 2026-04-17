@@ -27,6 +27,7 @@ __all__ = [
     'get_adset_details',
     'update_adset',
     'get_ads',
+    'create_adset',
     'get_ad_details',
     'get_creative_details',
     'get_ad_creatives',
