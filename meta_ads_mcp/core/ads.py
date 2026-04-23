@@ -1540,6 +1540,7 @@ async def create_ad_creative(
     images: Optional[List[Dict[str, Any]]] = None,
     facebook_branded_content: Optional[Dict[str, Any]] = None,
     instagram_branded_content: Optional[Dict[str, Any]] = None,
+    messenger_welcome_message: Optional[Dict[str, Any]] = None,
 ) -> str:
     """
     Create a new ad creative using an uploaded image hash, video ID, or an existing post.
