@@ -2400,6 +2400,8 @@ async def create_ad_creative(
             creative_data["facebook_branded_content"] = facebook_branded_content
         if instagram_branded_content:
             creative_data["instagram_branded_content"] = instagram_branded_content
+        if messenger_welcome_message:
+            creative_data["messenger_welcome_message"] = messenger_welcome_message
 
         # Make API request to create the creative
         data = await make_api_request(endpoint, access_token, creative_data, method="POST")
